@@ -1,0 +1,116 @@
+@import url();  
+
+
+
+body {
+    display : flex ;
+    justify-content: center ;
+    align-items: center ;
+    height : 100vh ;
+    background : purple;
+    background-size : cover ;
+    background-repeat : no-repeat ;
+    background-attachment : fixed ;
+    background-image: url('R.jpg');
+    background-position : center ;
+}
+
+.wrapper {
+    width : 420px;
+    background-color: transparent ;
+    color : white ;
+    border-radius : 20px;
+    border : 2px solid rgba(225, 225, 225, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow : 0px 0px 10px rgba(0, 0, 0, 0.2)
+}
+.wrapper h1 {
+   font-size : 40px ;
+   text-align: center;
+   font-family: "Press Start 2P";
+   color : white ;
+}
+
+.wrapper .input-box {
+    text-align: center;
+    font-size : 30px;
+    margin: 10px 0px ;
+
+}
+
+.input-box input {
+    width : 50vh;
+    height : 27px;
+    background : transparent;
+    border-radius : 30px;
+    padding : 10px;
+    color : white;
+    font-size : 16px;
+    
+}
+
+.input-box ::placeholder {
+    color : white ;
+    padding : 10px;
+}
+
+.input-box i {
+    height : 10px;
+    width : 10px;
+    position: absolute ;
+    font-size : 20px;
+    transform: translate(-33px, 15px);
+
+}
+
+.wrapper .remember-forgot {
+    display:flex ;
+    justify-content: space-between;
+    padding : 2px 30px 0px 25px ;
+    margin : 10px 0px -10px ;
+}
+.wrapper .btn {
+    display : fixed ;
+    width : 70%;
+    height :50px;
+    transform: translate(60px , 25px);
+    border : none ;
+    border-radius : 10px;
+    box-shadow: 0px 0px 10px rgba(0 , 0 , .1) ;
+    cursor: pointer;
+    font-size: 16px;
+}
+.remember-forgot a {
+    color : white;
+}
+.remember-forgot a:hover {
+    color : white ;
+    text-decoration: underline;
+
+}
+
+.wrapper .register-link {
+    padding : 19px;
+    text-align: center;
+    font-size: 16px;
+}
+.register-link a {
+    color : white ;
+}
+.register-link a:hover {
+    color : white ;
+    text-decoration: underline;
+}
+
+.wrapper  label input {
+    accent-color : rgb(241, 102, 218) ;
+}
+
+video {
+    
+    position: absolute;
+    bottom: 0;
+    top:0;
+    right :0;  
+    z-index: -1;
+}
